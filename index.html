@@ -161,8 +161,9 @@ class: middle, center
 # Wer bin ich und warum ist Raid wichtig?
 
 ---
+
 .left-column[
- ## Wer bin ich und warum ist Raid wichtig?
+## Wer bin ich und warum ist Raid wichtig?
 ]
 .right-column[
 * Tests / Statistiken von über > 500.000 HDDs/SSDs erstellt
@@ -176,25 +177,41 @@ class: middle, center
 * Erkenntnis 2: Datenträger können nicht schnell genug sein
 
 * Zwangsweise mit Raid beschäftigt
-* Redundant Array of Independent Disks
 ]
 
 ---
 
+class: middle, center
+
+# Allgemeine Definition
+
+---
 .left-column[
-## Wer bin ich und warum ist Raid wichtig?
+## Allgemeine Definition
+]
+.right-column[
+* Redundant Array of Independent Disks
+
+* Redundant Array of Inexpensive Disks
+
+* Logischer Zusammenschluss für mehr Leistung und Ausfallsicherheit
+
+* Daten werden in Chunks/Stripes aufgeteilt
+
+* Standard Chunk size von 64kB
+
+* Größere Datein => größere Chunks
+]
+
+---
+.left-column[
+## Allgemeine Definition
 ### - Striping
 ]
 .right-column[
-* Zusammenschluss von N Datenträgern zu einem logischen
+* Nutzbarer Speicher [Kapazität der kleinsten Disk] * N
 
 * N > 1
-
-* Daten werden in chunks/stripes aufgeteilt
-
-* Standard chunk size von 64kB
-
-* Größere Datein => größere Chunks
 
 * Chunks werden gleichmäßig auf alle Datenträger verteilt
 
@@ -203,43 +220,138 @@ class: middle, center
 * Alle Daten verloren beim Ausfall eines Datenträgers
 
 * Eigentlich gar kein Raid weil !Redundant
+]
 
+---
+.left-column[
+## Allgemeine Definition
+### - Striping
+]
+.right-column[
+![Right-aligned image](raid0.png)
 ]
 
 ---
 
 .left-column[
-## Wer bin ich und warum ist Raid wichtig?
+## Allgemeine Definition
 ### - Striping
 ### - Mirroring
 ]
 .right-column[
+* Nutzbarer Speicher [Kapazität der kleinsten Disk]
 
+* N > 1
+
+* Ein Chunk wird auf allen Disks gespeichert
+
+* Lesen kann parallel auf allen Datenträgern erfolgen
+
+* Das ist Raid :)
 ]
 
 ---
 
 .left-column[
-## Wer bin ich und warum ist Raid wichtig?
+## Allgemeine Definition
+### - Striping
+### - Mirroring
+]
+.right-column[
+![Right-aligned image](raid1.png)
+]
+
+---
+
+.left-column[
+## Allgemeine Definition
 ### - Striping
 ### - Mirroring
 ### - Parity
 ]
 .right-column[
+* Nutzbarer Speicher [Kapazität der kleinsten Disk] * (N-1)
 
+* N > 2
+
+* Parallels Schreiben von N-1 Chunks + Paritychunk
+
+* Paritychunk = XOR(N-1 Chunks)
+
+* Lesen/Schreiben parallel auf allen Datenträgern
+
+* Das ist auch noch Raid :)
 ]
 
 ---
 
 .left-column[
-## Wer bin ich und warum ist Raid wichtig?
+## Allgemeine Definition
+### - Striping
+### - Mirroring
+### - Parity
+]
+.right-column[
+Update eines Chunks:
+
+* Lesen des Chunks
+
+* Vergleich ob neuer Chunk != alter Chunk
+
+* Lesen des Parity Chunks
+
+* neuer Paritychunk = XOR(alter Chunk + neuer Chunk + Parity Chunk)
+
+* Schreiben vom neuen Chunk + neuer Paritychunk
+]
+
+---
+
+.left-column[
+## Allgemeine Definition
+### - Striping
+### - Mirroring
+### - Parity
+]
+.right-column[
+## schemazeichnung raid4
+]
+
+---
+
+.left-column[
+## Allgemeine Definition
+### - Striping
+### - Mirroring
+### - Parity
+]
+.right-column[
+## schemazeichnung raid5
+]
+
+---
+
+.left-column[
+## Allgemeine Definition
+### - Striping
+### - Mirroring
+### - Parity
+]
+.right-column[
+## schemazeichnung raid6
+]
+
+---
+
+.left-column[
+## Allgemeine Definition
 ### - Striping
 ### - Mirroring
 ### - Parity
 ### - Einsatzzweck
 ]
 .right-column-center[
-	## Ideen?
+## Ideen?
 ]
     </textarea>
     <script src="remark-latest.min.js">
