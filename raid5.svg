@@ -369,7 +369,7 @@
       <path fill="url(#linearGradient2)" d="M-52.25 -125.5 Q-52.25 -127.75 -50 -127.75 L61 -127.75 Q63.25 -127.75 63.25 -125.5 Q63.25 -123.25 7.75 -106.45 Q-47.75 -89.65 -50 -89.65 Q-52.25 -89.65 -52.25 -91.9 Z" clip-path="url(#clipPath2)" transform="matrix(1,0,0,1,66,141.5)" image-rendering="auto" stroke="none"/>
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,342,243)" stroke-linecap="butt">
-      <text x="29.0664" xml:space="preserve" y="-99.5957" clip-path="url(#clipPath2)" stroke="none">B2</text>
+      <text x="-1.5664" xml:space="preserve" y="-99.5957" clip-path="url(#clipPath2)" stroke="none">XOR(A1+B1)</text>
     </g>
     <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,276,151)" image-rendering="optimizeQuality">
       <image x="0" y="0" clip-path="url(#clipPath13)" width="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeUlEQVR42u2SwQrA&#10;IAxDre3mGPv/751CCuJNHPWwBEKlh+ZVmhJFURT1d8nuWfJBqHRzJBLAg7U6wzI7&#10;0xYBWvgBKzwFYQvhGcGl+kI19FMEgG/fwh/UE/0QAIfwH7jx1qgbyAgzbF6iAfpb&#10;0MFTW2wVAQhAAAIQ4AX5ZQEBu3x7hgAAAABJRU5ErkJggg==" height="32" preserveAspectRatio="none"/>
@@ -384,7 +384,7 @@
       <path fill="url(#linearGradient3)" d="M-52.25 -76 Q-52.25 -78.25 -50 -78.25 L61 -78.25 Q63.25 -78.25 63.25 -76 Q63.25 -73.75 7.75 -56.95 Q-47.75 -40.15 -50 -40.15 Q-52.25 -40.15 -52.25 -42.4 Z" clip-path="url(#clipPath2)" transform="matrix(1,0,0,1,66,92)" image-rendering="auto" stroke="none"/>
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,342,243)" stroke-linecap="butt">
-      <text x="29.0664" xml:space="preserve" y="-50.0957" clip-path="url(#clipPath2)" stroke="none">B3</text>
+      <text x="29.0781" xml:space="preserve" y="-50.0957" clip-path="url(#clipPath2)" stroke="none">A3</text>
     </g>
     <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,276,200.5)" image-rendering="optimizeQuality">
       <image x="0" y="0" clip-path="url(#clipPath18)" width="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeUlEQVR42u2SwQrA&#10;IAxDre3mGPv/751CCuJNHPWwBEKlh+ZVmhJFURT1d8nuWfJBqHRzJBLAg7U6wzI7&#10;0xYBWvgBKzwFYQvhGcGl+kI19FMEgG/fwh/UE/0QAIfwH7jx1qgbyAgzbF6iAfpb&#10;0MFTW2wVAQhAAAIQ4AX5ZQEBu3x7hgAAAABJRU5ErkJggg==" height="32" preserveAspectRatio="none"/>
@@ -414,7 +414,7 @@
       <path fill="url(#linearGradient5)" d="M-52.25 23 Q-52.25 20.75 -50 20.75 L61 20.75 Q63.25 20.75 63.25 23 Q63.25 25.25 7.75 42.05 Q-47.75 58.85 -50 58.85 Q-52.25 58.85 -52.25 56.6 Z" clip-path="url(#clipPath2)" transform="matrix(1,0,0,1,66,-7)" image-rendering="auto" stroke="none"/>
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,342,243)" stroke-linecap="butt">
-      <text x="29.0664" xml:space="preserve" y="48.9043" clip-path="url(#clipPath2)" stroke="none">B5</text>
+      <text x="-1.5664" xml:space="preserve" y="48.9043" clip-path="url(#clipPath2)" stroke="none">XOR(A5+B5)</text>
     </g>
     <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,2,52)" image-rendering="optimizeQuality">
       <image x="0" y="0" clip-path="url(#clipPath31)" width="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeUlEQVR42u2SwQrA&#10;IAxDre3mGPv/751CCuJNHPWwBEKlh+ZVmhJFURT1d8nuWfJBqHRzJBLAg7U6wzI7&#10;0xYBWvgBKzwFYQvhGcGl+kI19FMEgG/fwh/UE/0QAIfwH7jx1qgbyAgzbF6iAfpb&#10;0MFTW2wVAQhAAAIQ4AX5ZQEBu3x7hgAAAABJRU5ErkJggg==" height="32" preserveAspectRatio="none"/>
@@ -444,7 +444,7 @@
       <path fill="url(#linearGradient7)" d="M-326.25 -125.5 Q-326.25 -127.75 -324 -127.75 L-213 -127.75 Q-210.75 -127.75 -210.75 -125.5 Q-210.75 -123.25 -266.25 -106.45 Q-321.75 -89.65 -324 -89.65 Q-326.25 -89.65 -326.25 -91.9 Z" clip-path="url(#clipPath2)" transform="matrix(1,0,0,1,340,141.5)" image-rendering="auto" stroke="none"/>
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,342,243)" stroke-linecap="butt">
-      <text x="-244.9219" xml:space="preserve" y="-99.5957" clip-path="url(#clipPath2)" stroke="none">A2</text>
+      <text x="-244.9336" xml:space="preserve" y="-99.5957" clip-path="url(#clipPath2)" stroke="none">B2</text>
     </g>
     <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,2,151)" image-rendering="optimizeQuality">
       <image x="0" y="0" clip-path="url(#clipPath41)" width="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeUlEQVR42u2SwQrA&#10;IAxDre3mGPv/751CCuJNHPWwBEKlh+ZVmhJFURT1d8nuWfJBqHRzJBLAg7U6wzI7&#10;0xYBWvgBKzwFYQvhGcGl+kI19FMEgG/fwh/UE/0QAIfwH7jx1qgbyAgzbF6iAfpb&#10;0MFTW2wVAQhAAAIQ4AX5ZQEBu3x7hgAAAABJRU5ErkJggg==" height="32" preserveAspectRatio="none"/>
@@ -459,7 +459,7 @@
       <path fill="url(#linearGradient8)" d="M-326.25 -76 Q-326.25 -78.25 -324 -78.25 L-213 -78.25 Q-210.75 -78.25 -210.75 -76 Q-210.75 -73.75 -266.25 -56.95 Q-321.75 -40.15 -324 -40.15 Q-326.25 -40.15 -326.25 -42.4 Z" clip-path="url(#clipPath2)" transform="matrix(1,0,0,1,340,92)" image-rendering="auto" stroke="none"/>
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,342,243)" stroke-linecap="butt">
-      <text x="-244.9219" xml:space="preserve" y="-50.0957" clip-path="url(#clipPath2)" stroke="none">A3</text>
+      <text x="-275.5664" xml:space="preserve" y="-50.0957" clip-path="url(#clipPath2)" stroke="none">XOR(A3+B3)</text>
     </g>
     <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,2,200.5)" image-rendering="optimizeQuality">
       <image x="0" y="0" clip-path="url(#clipPath46)" width="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeUlEQVR42u2SwQrA&#10;IAxDre3mGPv/751CCuJNHPWwBEKlh+ZVmhJFURT1d8nuWfJBqHRzJBLAg7U6wzI7&#10;0xYBWvgBKzwFYQvhGcGl+kI19FMEgG/fwh/UE/0QAIfwH7jx1qgbyAgzbF6iAfpb&#10;0MFTW2wVAQhAAAIQ4AX5ZQEBu3x7hgAAAABJRU5ErkJggg==" height="32" preserveAspectRatio="none"/>
@@ -489,7 +489,7 @@
       <path fill="url(#linearGradient10)" d="M-326.25 23 Q-326.25 20.75 -324 20.75 L-213 20.75 Q-210.75 20.75 -210.75 23 Q-210.75 25.25 -266.25 42.05 Q-321.75 58.85 -324 58.85 Q-326.25 58.85 -326.25 56.6 Z" clip-path="url(#clipPath2)" transform="matrix(1,0,0,1,340,-7)" image-rendering="auto" stroke="none"/>
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,342,243)" stroke-linecap="butt">
-      <text x="-244.9219" xml:space="preserve" y="48.9043" clip-path="url(#clipPath2)" stroke="none">A5</text>
+      <text x="-244.9336" xml:space="preserve" y="48.9043" clip-path="url(#clipPath2)" stroke="none">B5</text>
     </g>
     <g fill="url(#linearGradient11)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,342,243)" stroke="url(#linearGradient11)">
       <path d="M-52.25 72.5 Q-52.25 70.25 -50 70.25 L61 70.25 Q63.25 70.25 63.25 72.5 Q63.25 74.75 7.75 91.55 Q-47.75 108.35 -50 108.35 Q-52.25 108.35 -52.25 106.1 Z" clip-path="url(#clipPath2)" stroke="none"/>
@@ -507,7 +507,7 @@
       <path d="M-52.25 -224.5 Q-52.25 -226.75 -50 -226.75 L61 -226.75 Q63.25 -226.75 63.25 -224.5 Q63.25 -222.25 7.75 -205.45 Q-47.75 -188.65 -50 -188.65 Q-52.25 -188.65 -52.25 -190.9 Z" clip-path="url(#clipPath2)" stroke="none"/>
     </g>
     <g font-size="20" stroke-linecap="butt" transform="matrix(1,0,0,1,342,243)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
-      <text x="5.2568" xml:space="preserve" y="-195.8262" clip-path="url(#clipPath2)" stroke="none">Raid 4</text>
+      <text x="5.2568" xml:space="preserve" y="-195.8262" clip-path="url(#clipPath2)" stroke="none">Raid 5</text>
     </g>
     <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,550,52)" image-rendering="optimizeQuality">
       <image x="0" y="0" clip-path="url(#clipPath59)" width="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeUlEQVR42u2SwQrA&#10;IAxDre3mGPv/751CCuJNHPWwBEKlh+ZVmhJFURT1d8nuWfJBqHRzJBLAg7U6wzI7&#10;0xYBWvgBKzwFYQvhGcGl+kI19FMEgG/fwh/UE/0QAIfwH7jx1qgbyAgzbF6iAfpb&#10;0MFTW2wVAQhAAAIQ4AX5ZQEBu3x7hgAAAABJRU5ErkJggg==" height="32" preserveAspectRatio="none"/>
@@ -537,7 +537,7 @@
       <path fill="url(#linearGradient15)" d="M221.75 -125.5 Q221.75 -127.75 224 -127.75 L335 -127.75 Q337.25 -127.75 337.25 -125.5 Q337.25 -123.25 281.75 -106.45 Q226.25 -89.65 224 -89.65 Q221.75 -89.65 221.75 -91.9 Z" clip-path="url(#clipPath2)" transform="matrix(1,0,0,1,-208,141.5)" image-rendering="auto" stroke="none"/>
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,342,243)" stroke-linecap="butt">
-      <text x="272.4336" xml:space="preserve" y="-99.5957" clip-path="url(#clipPath2)" stroke="none">XOR(A2+B2)</text>
+      <text x="303.0664" xml:space="preserve" y="-99.5957" clip-path="url(#clipPath2)" stroke="none">B1</text>
     </g>
     <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,550,151)" image-rendering="optimizeQuality">
       <image x="0" y="0" clip-path="url(#clipPath69)" width="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeUlEQVR42u2SwQrA&#10;IAxDre3mGPv/751CCuJNHPWwBEKlh+ZVmhJFURT1d8nuWfJBqHRzJBLAg7U6wzI7&#10;0xYBWvgBKzwFYQvhGcGl+kI19FMEgG/fwh/UE/0QAIfwH7jx1qgbyAgzbF6iAfpb&#10;0MFTW2wVAQhAAAIQ4AX5ZQEBu3x7hgAAAABJRU5ErkJggg==" height="32" preserveAspectRatio="none"/>
@@ -552,7 +552,7 @@
       <path fill="url(#linearGradient16)" d="M221.75 -76 Q221.75 -78.25 224 -78.25 L335 -78.25 Q337.25 -78.25 337.25 -76 Q337.25 -73.75 281.75 -56.95 Q226.25 -40.15 224 -40.15 Q221.75 -40.15 221.75 -42.4 Z" clip-path="url(#clipPath2)" transform="matrix(1,0,0,1,-208,92)" image-rendering="auto" stroke="none"/>
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,342,243)" stroke-linecap="butt">
-      <text x="272.4336" xml:space="preserve" y="-50.0957" clip-path="url(#clipPath2)" stroke="none">XOR(A3+B3)</text>
+      <text x="303.0664" xml:space="preserve" y="-50.0957" clip-path="url(#clipPath2)" stroke="none">B3</text>
     </g>
     <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,550,200.5)" image-rendering="optimizeQuality">
       <image x="0" y="0" clip-path="url(#clipPath74)" width="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeUlEQVR42u2SwQrA&#10;IAxDre3mGPv/751CCuJNHPWwBEKlh+ZVmhJFURT1d8nuWfJBqHRzJBLAg7U6wzI7&#10;0xYBWvgBKzwFYQvhGcGl+kI19FMEgG/fwh/UE/0QAIfwH7jx1qgbyAgzbF6iAfpb&#10;0MFTW2wVAQhAAAIQ4AX5ZQEBu3x7hgAAAABJRU5ErkJggg==" height="32" preserveAspectRatio="none"/>
@@ -582,7 +582,7 @@
       <path fill="url(#linearGradient18)" d="M221.75 23 Q221.75 20.75 224 20.75 L335 20.75 Q337.25 20.75 337.25 23 Q337.25 25.25 281.75 42.05 Q226.25 58.85 224 58.85 Q221.75 58.85 221.75 56.6 Z" clip-path="url(#clipPath2)" transform="matrix(1,0,0,1,-208,-7)" image-rendering="auto" stroke="none"/>
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,342,243)" stroke-linecap="butt">
-      <text x="272.4336" xml:space="preserve" y="48.9043" clip-path="url(#clipPath2)" stroke="none">XOR(A5+B5)</text>
+      <text x="303.0781" xml:space="preserve" y="48.9043" clip-path="url(#clipPath2)" stroke="none">A5</text>
     </g>
     <g fill="url(#linearGradient19)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,342,243)" stroke="url(#linearGradient19)">
       <path d="M221.75 72.5 Q221.75 70.25 224 70.25 L335 70.25 Q337.25 70.25 337.25 72.5 Q337.25 74.75 281.75 91.55 Q226.25 108.35 224 108.35 Q221.75 108.35 221.75 106.1 Z" clip-path="url(#clipPath2)" stroke="none"/>
