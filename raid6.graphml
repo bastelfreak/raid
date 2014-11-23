@@ -17,7 +17,7 @@
     <node id="n0">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="34.0" y="-568.0"/>
+          <y:Geometry height="49.5" width="180.0" x="-170.0" y="-328.0"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="21.49609375" x="79.251953125" y="15.765625">B1<y:LabelModel>
@@ -33,7 +33,7 @@
     <node id="n1">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="34.0" y="-518.5"/>
+          <y:Geometry height="49.5" width="180.0" x="-170.0" y="-278.5"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="21.63671875" x="79.181640625" y="15.765625">A1<y:LabelModel>
@@ -49,7 +49,7 @@
     <node id="n2">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="34.0" y="-469.0"/>
+          <y:Geometry height="49.5" width="180.0" x="-170.0" y="-229.0"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="116.060546875" x="31.9697265625" y="15.765625">XOR(A3+B3+C3)<y:LabelModel>
@@ -65,7 +65,7 @@
     <node id="n3">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="34.0" y="-419.5"/>
+          <y:Geometry height="49.5" width="180.0" x="-170.0" y="-179.5"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="21.49609375" x="79.251953125" y="15.765625">B4<y:LabelModel>
@@ -81,7 +81,7 @@
     <node id="n4">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="34.0" y="-370.0"/>
+          <y:Geometry height="49.5" width="180.0" x="-170.0" y="-130.0"/>
           <y:Fill color="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="21.63671875" x="79.181640625" y="15.765625">A5<y:LabelModel>
@@ -97,7 +97,7 @@
     <node id="n5">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="-240.0" y="-568.0"/>
+          <y:Geometry height="49.5" width="180.0" x="-444.0" y="-328.0"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="21.63671875" x="79.181640625" y="15.765625">A1<y:LabelModel>
@@ -113,7 +113,7 @@
     <node id="n6">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="-240.0" y="-518.5"/>
+          <y:Geometry height="49.5" width="180.0" x="-444.0" y="-278.5"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="116.060546875" x="31.9697265625" y="15.765625">XOR(A2+B2+C2)<y:LabelModel>
@@ -129,7 +129,7 @@
     <node id="n7">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="-240.0" y="-469.0"/>
+          <y:Geometry height="49.5" width="180.0" x="-444.0" y="-229.0"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="21.15625" x="79.421875" y="15.765625">C3<y:LabelModel>
@@ -145,7 +145,7 @@
     <node id="n8">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="-240.0" y="-419.5"/>
+          <y:Geometry height="49.5" width="180.0" x="-444.0" y="-179.5"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="21.63671875" x="79.181640625" y="15.765625">A4<y:LabelModel>
@@ -161,7 +161,7 @@
     <node id="n9">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="-240.0" y="-370.0"/>
+          <y:Geometry height="49.5" width="180.0" x="-444.0" y="-130.0"/>
           <y:Fill color="#FF9900" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="88.849609375" x="45.5751953125" y="15.765625">XOR(A5+B5)<y:LabelModel>
@@ -177,7 +177,7 @@
     <node id="n10">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="34.0" y="-320.5"/>
+          <y:Geometry height="49.5" width="180.0" x="-170.0" y="-80.5"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="46.521484375" x="66.7392578125" y="15.765625">Disk B<y:LabelModel>
@@ -196,7 +196,7 @@
     <node id="n11">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="-240.0" y="-320.5"/>
+          <y:Geometry height="49.5" width="180.0" x="-444.0" y="-80.5"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="46.662109375" x="66.6689453125" y="15.765625">Disk A<y:LabelModel>
@@ -215,7 +215,7 @@
     <node id="n12">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="-103.0" y="-290.5"/>
+          <y:Geometry height="49.5" width="180.0" x="-33.0" y="-377.5"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="27.28125" modelName="custom" textColor="#000000" visible="true" width="74.947265625" x="52.5263671875" y="11.109375">Raid 6<y:LabelModel>
@@ -234,7 +234,7 @@
     <node id="n13">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="-240.0" y="-241.0"/>
+          <y:Geometry height="49.5" width="180.0" x="104.0" y="-328.0"/>
           <y:Fill color="#00CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="21.15625" x="79.421875" y="15.765625">C1<y:LabelModel>
@@ -250,7 +250,7 @@
     <node id="n14">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="-240.0" y="-191.5"/>
+          <y:Geometry height="49.5" width="180.0" x="104.0" y="-278.5"/>
           <y:Fill color="#00CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="21.49609375" x="79.251953125" y="15.765625">B2<y:LabelModel>
@@ -266,7 +266,7 @@
     <node id="n15">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="-240.0" y="-142.0"/>
+          <y:Geometry height="49.5" width="180.0" x="104.0" y="-229.0"/>
           <y:Fill color="#00CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="21.63671875" x="79.181640625" y="15.765625">A3<y:LabelModel>
@@ -282,7 +282,7 @@
     <node id="n16">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="-240.0" y="-92.5"/>
+          <y:Geometry height="49.5" width="180.0" x="104.0" y="-179.5"/>
           <y:Fill color="#00CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="21.15625" x="79.421875" y="15.765625">C4<y:LabelModel>
@@ -298,7 +298,7 @@
     <node id="n17">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="-240.0" y="-43.0"/>
+          <y:Geometry height="49.5" width="180.0" x="104.0" y="-130.0"/>
           <y:Fill color="#00CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="21.49609375" x="79.251953125" y="15.765625">B5<y:LabelModel>
@@ -314,7 +314,7 @@
     <node id="n18">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="-240.0" y="6.5"/>
+          <y:Geometry height="49.5" width="180.0" x="104.0" y="-80.5"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="46.181640625" x="66.9091796875" y="15.765625">Disk C<y:LabelModel>
@@ -333,7 +333,7 @@
     <node id="n19">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="34.0" y="-241.0"/>
+          <y:Geometry height="49.5" width="180.0" x="378.0" y="-328.0"/>
           <y:Fill color="#CCFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="116.060546875" x="31.9697265625" y="15.765625">XOR(A1+B1+C1)<y:LabelModel>
@@ -349,7 +349,7 @@
     <node id="n20">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="34.0" y="-191.5"/>
+          <y:Geometry height="49.5" width="180.0" x="378.0" y="-278.5"/>
           <y:Fill color="#CCFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="21.15625" x="79.421875" y="15.765625">C2<y:LabelModel>
@@ -365,7 +365,7 @@
     <node id="n21">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="34.0" y="-142.0"/>
+          <y:Geometry height="49.5" width="180.0" x="378.0" y="-229.0"/>
           <y:Fill color="#CCFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="21.49609375" x="79.251953125" y="15.765625">B3<y:LabelModel>
@@ -381,7 +381,7 @@
     <node id="n22">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="34.0" y="-92.5"/>
+          <y:Geometry height="49.5" width="180.0" x="378.0" y="-179.5"/>
           <y:Fill color="#CCFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="116.060546875" x="31.9697265625" y="15.765625">XOR(A4+B4+C4)<y:LabelModel>
@@ -397,7 +397,7 @@
     <node id="n23">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="34.0" y="-43.0"/>
+          <y:Geometry height="49.5" width="180.0" x="378.0" y="-130.0"/>
           <y:Fill color="#CCFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="21.15625" x="79.421875" y="15.765625">C5<y:LabelModel>
@@ -413,7 +413,7 @@
     <node id="n24">
       <data key="d6">
         <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-          <y:Geometry height="49.5" width="180.0" x="34.0" y="6.5"/>
+          <y:Geometry height="49.5" width="180.0" x="378.0" y="-80.5"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="47.3359375" x="66.33203125" y="15.765625">Disk D<y:LabelModel>
