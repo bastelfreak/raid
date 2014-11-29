@@ -143,8 +143,10 @@ class: center, middle
 	1. Striping
 	2. Mirroring
 	3. Parity
-	4. Einsatzzweck
-4. Implementierung
+4. Einsatzzweck
+	1. Raidlevel
+	2. Raidkombinationen
+5. Implementierung
 	1. Hardware
 		1. Raidcontroller mit RoC
 		2. Biosraid / Fakeraid
@@ -356,7 +358,156 @@ Update eines Chunks:
 .right-column-center[
 ## Ideen?
 ]
-    </textarea>
+ 
+---
+
+.left-column[
+## Einsatzzweck
+### - Raid 0
+]
+.right-column[
+Vorteile:
+
+* Hohe Schreib/Leseleistung
+
+Nachteile:
+
+* Kein Schutz vor Hardwaredefekten
+
+Einsatzzweck:
+
+* Speichern von OS/Spiele im Heimbereich
+]
+
+---
+
+.left-column[
+## Einsatzzweck
+### - Raid 0
+### - Raid 1
+]
+.right-column[
+Vorteile:
+
+* Hohe Leseleistung
+
+* N-1 Disks können ausfallen ohne Datenverlust
+
+Nachteile:
+
+* Große Differenz zwischen Netto/Brutto Kapazität
+
+Einsatzzweck:
+
+* OS Installation im Server/Workstation Bereich
+
+* Datenspeicher in Servern mit geringen Schreibanforderungen
+]
+
+---
+
+.left-column[
+## Einsatzzweck
+### - Raid 0
+### - Raid 1
+### - Raid 4
+]
+.right-column[
+Vorteile:
+
+* erhöhte Schreib/Leseleistung
+
+* Eine Disk kann ausfallen ohne Datenverlust
+
+Nachteile:
+
+* Parity Berechnung kostet Rechenleistung
+
+* Ausfall Parity Disk => Neuberechnung Parity Chunks
+
+* Starke Belastung aller verbliebenen Disks bei Rebuild
+
+Einsatzzweck:
+
+* Hohe Belastung beim Ausfall der Parity Disk => Garnicht
+]
+
+---
+
+.left-column[
+## Einsatzzweck
+### - Raid 0
+### - Raid 1
+### - Raid 4
+### - Raid 5
+]
+.right-column[
+Vorteile:
+
+* erhöhte Schreib/Leseleistung
+
+* Eine Disk kann ausfallen ohne Datenverlust
+
+Nachteile:
+
+* Parity Berechnung kostet Rechenleistung
+
+* Hohe Belastung aller verbliebenen Disks bei Rebuild
+
+Einsatzzweck:
+
+* Große Datenspeicher bis ~10TB mit geringen Random IO Anforderungen
+]
+
+---
+
+.left-column[
+## Einsatzzweck Raidlevel
+### - Raid 0
+### - Raid 1
+### - Raid 4
+### - Raid 5
+### - Raid 6
+]
+.right-column[
+Vorteile:
+
+* erhöhte Schreib/Leseleistung
+
+* Zwei Disks können ausfallen ohne Datenverlust
+
+Nachteile:
+
+* Parity Berechnung kostet Rechenleistung
+
+* Hohe Belastung aller verbliebenen Disks bei Rebuild
+
+Einsatzzweck:
+
+* Große Datenspeicher bis ~19TB mit geringen Random IO Anforderungen
+]
+
+---
+
+.left-column[
+## Einsatzzweck Raidkombinationen
+]
+.right-column[
+## Was kann man wohl wie kombinieren?
+]
+
+---
+
+.left-column[
+## Einsatzzweck Raidkombinationen
+### - Raid 10
+]
+.right-column[
+![right-aligned image](raid10.svg)
+]
+
+
+			</textarea>
     <script src="remark-latest.min.js">
     </script>
     <script>
