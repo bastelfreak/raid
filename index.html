@@ -349,11 +349,7 @@ Update eines Chunks:
 ---
 
 .left-column[
-## Allgemeine Definition
-### - Striping
-### - Mirroring
-### - Parity
-### - Einsatzzweck
+## Einsatzzweck
 ]
 .right-column-center[
 ## Ideen?
@@ -362,7 +358,7 @@ Update eines Chunks:
 ---
 
 .left-column[
-## Einsatzzweck
+## Einsatzzweck Raidlevel
 ### - Raid 0
 ]
 .right-column[
@@ -382,7 +378,7 @@ Einsatzzweck:
 ---
 
 .left-column[
-## Einsatzzweck
+## Einsatzzweck Raidlevel
 ### - Raid 0
 ### - Raid 1
 ]
@@ -407,7 +403,7 @@ Einsatzzweck:
 ---
 
 .left-column[
-## Einsatzzweck
+## Einsatzzweck Raidlevel
 ### - Raid 0
 ### - Raid 1
 ### - Raid 4
@@ -435,7 +431,7 @@ Einsatzzweck:
 ---
 
 .left-column[
-## Einsatzzweck
+## Einsatzzweck Raidlevel
 ### - Raid 0
 ### - Raid 1
 ### - Raid 4
@@ -490,23 +486,79 @@ Einsatzzweck:
 ---
 
 .left-column[
-## Einsatzzweck Raidkombinationen
+## Einsatzzweck Raidkombis
 ]
-.right-column[
+.right-column-center[
 ## Was kann man wohl wie kombinieren?
 ]
 
 ---
 
 .left-column[
-## Einsatzzweck Raidkombinationen
+## Einsatzzweck Raidkombis
 ### - Raid 10
 ]
 .right-column[
 ![right-aligned image](raid10.svg)
 ]
 
+---
 
+.left-column[
+## Einsatzzweck Raidkombis
+### - Raid 10
+]
+.right-column[
+Vorteile:
+
+* Hohe Schreib/Leseleistung
+
+* Gute Skalierbarkeit
+
+* Ausfall mehrerer Disks möglich
+
+* Geringe Rebuildbelastung
+
+* Sehr gute Random IO Leistung
+
+Nachteile:
+
+* Hoher Brutto/Netto Unterschied
+
+Einsatzzweck:
+
+* Virtualisierung
+
+* Datenbanken
+
+* Alles mit viel Random IO
+]
+
+---
+
+.left-column[
+## Einsatzzweck Raidkombis
+### - Raid 10
+### - Rest
+]
+.right-column[
+
+* Raid 01
+
+* Raid 50
+
+* Raid 51
+
+* Raid 60
+
+* Raid 61
+]
+
+---
+
+.left-column[
+## Implementierung
+]
 			</textarea>
     <script src="remark-latest.min.js">
     </script>
