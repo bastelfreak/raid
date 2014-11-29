@@ -152,11 +152,10 @@ class: center, middle
 		2. Biosraid / Fakeraid
 	2. Software 
 		1. mdadm
-		2. LVM2
-		3. ZFS
-		4. BTRFS
-		5. glusterfs
-		6. ceph
+		2. ZFS
+		3. BTRFS
+		4. glusterfs
+		5. ceph
 
 
 ---
@@ -279,7 +278,7 @@ class: middle, center
 
 * N > 2
 
-* Parallels Schreiben von N-1 Chunks + Paritychunk
+* Parallels Schreiben von N-1 Chunks (Paritychunk wird danach geschrieben)
 
 * Paritychunk = XOR(N-1 Chunks)
 
@@ -555,10 +554,202 @@ Einsatzzweck:
 ]
 
 ---
+class: center, middle
+
+## Hardware (RoC/Fakeraid)
+
+## Software (mdadm/Dateisysteme)
+
+---
 
 .left-column[
-## Implementierung
+## Hardware
+### - RoC
 ]
+.right-column[
+![right-aligned image](lsi9271-4i.jpg)
+]
+
+---
+
+.left-column[
+## Hardware
+### - RoC
+]
+.right-column[
+## hier HBA foto einfügen
+]
+
+
+---
+
+.left-column[
+## Hardware
+### - RoC
+### - Fakeraid
+]
+.right-column[
+* Raid Algorithmen gepsichert im Chipsatz(BiosRaid)
+
+* Raid Algorithmen gespeichert auf Zusatzkarte(FakeRaid)
+
+* Berechnungen übernimmt CPU, kein dedizierter Controller
+]
+
+---
+
+.left-column[
+## Software
+### - mdadm
+]
+.right-column[
+* Raid Algorithmen im Linux Kernel
+
+* mdadm = **M**ultiple **D**isk **ADM**inistration
+
+* mdadm => Userlandtool zum ansprechen der Algorithmen
+
+* Verwaltung von X Blockdevices in einem Raidverbund
+]
+
+---
+
+.left-column[
+## Software
+### - mdadm
+]
+.right-column[
+Vorteile:
+
+* Freie Implementierung der Algorithmen
+
+* Raids sind unabhängig von Controller/CPU
+
+Nachteile:
+
+* Geringere Performance zu RoC bei Raidkombinationen (nur im HPC Bereich)
+
+Einsatzzweck:
+
+* Jeder Linux Server/Workstation (außer HPC)
+]
+
+---
+
+.left-column[
+## Software
+### - mdadm
+]
+.right-column[
+```
+[root@bastelfreak-fs ~]# cat /proc/mdstat 
+Personalities : [raid1] [raid6] [raid5] [raid4] 
+md125 : active raid6 sda[4] sdd[7] sdi[8] sdg[2] sdf[3] 
+      sdh[1] sde[0] sdc[6] sdb[5]
+      20510945280 blocks super 1.2 level 6, 512k chunk, 
+      algorithm 2 [9/9] [UUUUUUUUU]
+      bitmap: 0/22 pages [0KB], 65536KB chunk
+
+md126 : active raid1 sdj2[0] sdm2[3] sdl2[2] sdk2[1]
+      1049536 blocks super 1.0 [4/4] [UUUU]
+      bitmap: 1/1 pages [4KB], 65536KB chunk
+
+md127 : active raid1 sdj1[0] sdm1[3] sdl1[2] sdk1[1]
+      52510592 blocks super 1.2 [4/4] [UUUU]
+      bitmap: 1/1 pages [4KB], 65536KB chunk
+
+unused devices: <none>
+[root@bastelfreak-fs ~]#```
+]
+
+---
+
+.left-column[
+## Software
+### - mdadm
+### - ZFS
+]
+.right-column[
+Was ist das?
+
+* **Z**ettabyte **F**ile **S**ystem von Sun
+
+* Dateisystem inkl Volume Manager und Raid Support
+
+* Konzipiert für den Enterprise Einsatz (Backupstorage mit >2PB, riesige Virtualisierungscluster)
+
+* Funktioniert aber auch toll Zuhaus :)
+]
+
+---
+
+.left-column[
+## Software
+### - mdadm
+### - ZFS
+]
+.right-column[
+Was kann ZFS als Dateisystem?
+
+* Maximale Dateigröße von 16EiB (2^60)
+
+* Maximale Dateisystemgröße 16EiB
+
+* Maximal 2^48 Datein
+
+* Lauffähig unter Linux, Solaris, FreeBSD
+
+* Transparente Komprimierung
+
+* Transparente Verschlüsselung
+
+* Dynamische Inodes
+
+* Checksumming
+
+* Scrubbing
+
+* Deduplication
+]
+
+---
+
+.left-column[
+## Software
+### - mdadm
+### - ZFS
+]
+.right-column[
+Was kann ZFS als Volume Manager?
+
+* Partial Rebuild
+
+* Send/Receive
+
+* Pools mit dynamischen Partitionsgrößen
+
+* Kein Write Hole bei Raid-Z1, Raid-Z2, Raid-Z3
+
+* ZIL - ZFS Intent Log Cache (Ram oder Blockdevice[s])
+
+* ARC - Adaptive Replacement Cache (Ram)
+
+* L2ARC - Layer 2 Adaptive Replacement Cache (Ram oder Blockdevice[s])
+]
+
+---
+
+
+.left-column[
+## Software
+### - mdadm
+### - ZFS
+### - BTRFS
+### - glusterfs
+### - ceph
+]
+
+
 			</textarea>
     <script src="remark-latest.min.js">
     </script>
