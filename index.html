@@ -679,6 +679,10 @@ Was ist das?
 * Konzipiert für den Enterprise Einsatz (Backupstorage mit >2PB, riesige Virtualisierungscluster)
 
 * Funktioniert aber auch toll Zuhaus :)
+
+* Entwickelt auf FreeBSD und Solaris
+
+* Portierung auf Linux
 ]
 
 ---
@@ -697,19 +701,19 @@ Was kann ZFS als Dateisystem?
 
 * Maximal 2^48 Datein
 
-* Lauffähig unter Linux, Solaris, FreeBSD
-
 * Transparente Komprimierung
 
 * Transparente Verschlüsselung
 
 * Dynamische Inodes
 
-* Checksumming
+* Checksumming (CRC32)
 
 * Scrubbing
 
 * Deduplication
+
+* Snapshots (CoW)
 ]
 
 ---
@@ -739,6 +743,38 @@ Was kann ZFS als Volume Manager?
 
 ---
 
+.left-column[
+## Software
+### - mdadm
+### - ZFS
+### - BTRFS
+]
+.right-column[
+Wie ZFS aber:
+
+* Native Linux Entwicklung
+
+* Keine eingebaute Verschlüsselung
+
+* Online Raid Level Migration
+
+* Unterschiedliche Raidlevel für Daten und Metadaten
+]
+
+---
+
+.left-column[
+## Software
+### - mdadm
+### - ZFS
+### - BTRFS
+### - glusterfs
+
+]
+.right-column[
+
+]
+---
 
 .left-column[
 ## Software
@@ -747,6 +783,9 @@ Was kann ZFS als Volume Manager?
 ### - BTRFS
 ### - glusterfs
 ### - ceph
+]
+.right-column[
+
 ]
 
 
