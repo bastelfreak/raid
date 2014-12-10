@@ -472,15 +472,6 @@ Einsatzzweck:
 
 .left-column[
 ## Einsatzzweck Raidkombis
-]
-.right-column-center[
-## Was kann man wohl wie kombinieren?
-]
-
----
-
-.left-column[
-## Einsatzzweck Raidkombis
 ### - Raid 10
 ]
 .right-column[
@@ -509,6 +500,8 @@ Vorteile:
 Nachteile:
 
 * Hoher Brutto/Netto Unterschied
+
+* Beim Rebuild wird die einzige Datenplatte belastet
 
 Einsatzzweck:
 
@@ -575,7 +568,7 @@ class: center, middle
 ### - Fakeraid
 ]
 .right-column[
-* Raid Algorithmen gepsichert im Chipsatz(BiosRaid)
+* Raid Algorithmen gespeichert im Chipsatz(BiosRaid)
 
 * Raid Algorithmen gespeichert auf Zusatzkarte(FakeRaid)
 
@@ -758,6 +751,15 @@ Wie ZFS aber:
 
 ]
 .right-column[
+Netzwerkdateisystem:
+
+* Network Storage
+
+* Distributed Storage
+
+* Replicated Storage
+
+* Distributed Replicated Storage
 
 ]
 ---
@@ -771,12 +773,26 @@ Wie ZFS aber:
 ### - ceph
 ]
 .right-column[
+Distributed Object Store:
 
+* Speicherung von Binärobjekten
+
+* Ceph-Layer auf normalen Datenträgern (OSD - Object Storage Daemon)
+
+* MONs verwalten Crushmap
+
+* MONs übernehmen Fencing, Quorum, verhindern Split-Brain
 ]
 
 ---
 
+![Default-aligned image](ceph.svg)
+
+---
+
 class: middle, center
+
+# Fazit
 
 ## Raid bietet mehr logischen Speicher, Ausfallsicherheit, gesteigerte IO Performance
 
