@@ -129,7 +129,7 @@
   <body>
     <textarea id="source">
 
-class: center, middle
+class: center, middle, inverse
 
 # Raid
 
@@ -146,9 +146,9 @@ class: center, middle
 
 ---
 
-class: middle, center
+class: middle, center, inverse
 
-# Wer bin ich und warum ist Raid wichtig?
+## Wer bin ich und warum ist Raid wichtig?
 
 ---
 
@@ -171,9 +171,9 @@ class: middle, center
 
 ---
 
-class: middle, center
+class: middle, center, inverse
 
-# Allgemeine Definition
+## Allgemeine Definition
 
 ---
 .left-column[
@@ -328,17 +328,13 @@ Update eines Chunks:
 ### - Parity
 ]
 .right-column[
-![Right-aligned image](raid6.svg)
+![right-aligned image](raid6.svg)
 ]
 
 ---
 
-.left-column[
+class: middle, center, inverse
 ## Einsatzzweck
-]
-.right-column-center[
-## Ideen?
-]
  
 ---
 
@@ -533,7 +529,7 @@ Einsatzzweck:
 ]
 
 ---
-class: center, middle
+class: center, middle, inverse
 
 ## Hardware (RoC/Fakeraid)
 
@@ -781,16 +777,26 @@ Distributed Object Store:
 
 * MONs verwalten Crushmap
 
-* MONs übernehmen Fencing, Quorum, verhindern Split-Brain
+* MONs übernehmen Fencing und Quorum (ohne STONITH), verhindern Split-Brain
 ]
 
 ---
 
-![Default-aligned image](ceph.svg)
+.left-column[
+## Software
+### - mdadm
+### - ZFS
+### - BTRFS
+### - glusterfs
+### - ceph
+]
+.right-column[
+![Right-aligned image](ceph.svg)
+]
 
 ---
 
-class: middle, center
+class: middle, center, inverse
 
 # Fazit
 
