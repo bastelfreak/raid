@@ -114,17 +114,32 @@
         width: 75%;
         float: right;
         padding-top: 1em;
-      } 
+      }
       .right-column-center {
         width: 75%;
         float: right;
         padding-top: 1em;
-				text-align: center;
+        text-align: center;
       }
-			.right-column img {
-				width: 100%;
-			}
-		</style>
+      .right-column img {
+        width: 100%;
+      }
+      @page {
+        size: 1024px 786px;
+        margin: 0;
+      }
+
+      @media print {
+        .remark-slide-scaler {
+          width: 100% !important;
+          height: 100% !important;
+          transform: scale(1) !important;
+          top: 0 !important;
+          left: 0 !important;
+          size: 1024px 786px;
+        }
+      }
+    </style>
   </head>
   <body>
     <textarea id="source">
@@ -335,7 +350,7 @@ Update eines Chunks:
 
 class: middle, center, inverse
 ## Einsatzzweck
- 
+
 ---
 
 .left-column[
@@ -617,11 +632,11 @@ Einsatzzweck:
 ]
 .right-column[
 ```
-[root@bastelfreak-fs ~]# cat /proc/mdstat 
-Personalities : [raid1] [raid6] [raid5] [raid4] 
-md125 : active raid6 sda[4] sdd[7] sdi[8] sdg[2] sdf[3] 
+[root@bastelfreak-fs ~]# cat /proc/mdstat
+Personalities : [raid1] [raid6] [raid5] [raid4]
+md125 : active raid6 sda[4] sdd[7] sdi[8] sdg[2] sdf[3]
       sdh[1] sde[0] sdc[6] sdb[5]
-      20510945280 blocks super 1.2 level 6, 512k chunk, 
+      20510945280 blocks super 1.2 level 6, 512k chunk,
       algorithm 2 [9/9] [UUUUUUUUU]
       bitmap: 0/22 pages [0KB], 65536KB chunk
 
@@ -805,7 +820,7 @@ class: middle, center, inverse
 ## Raid ersetzt keine Backups!
 .footnote[&copy; Tim Meusel]
 
-			</textarea>
+      </textarea>
     <script src="remark-latest.min.js">
     </script>
     <script>
